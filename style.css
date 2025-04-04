@@ -1,0 +1,93 @@
+:root {
+    --primary: #0466C8;
+    --secondary: #ffffff;
+  }
+  
+html,body{
+    padding: 0;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+
+}
+a{
+    text-decoration: none;
+}
+.header{
+    background-color: var(--primary, #0466C8);
+    padding: 20px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.logo a{
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--secondary);
+}
+.header nav{
+display: flex;
+align-items: center;
+color: var(--secondary);
+font-size: 16px;
+column-gap: 60px;
+}
+.list{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+.header_button{
+    display: flex;
+    column-gap: 40px;
+}
+.list_nav{
+    color: var(--secondary);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.register{
+    padding: 10px 12px;
+    background-color: var(--secondary);
+}
+.register a{
+    color: var(--primary);
+    font-weight: 600;
+    
+}
+.cover{
+    background-color: var(--primary);
+    padding: 40px 200px 80px 200px;
+}
+.cover h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--secondary);
+}
+.cover p{
+    font-size: 20px;
+    color: var(--secondary);
+}
+.booking{
+    padding: 60px 200px 80px 200px;
+}
+.cover_list{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card_img{
+    width: 300px;
+    height: 210px;
+}
+.card_img img{
+    max-width: 100%;
+}
