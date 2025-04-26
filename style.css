@@ -17,7 +17,7 @@ a{
     text-decoration: none;
 }
 .header{
-    background-color: var(--primary, #0466C8);
+    background-color: var(--secondary);
     padding: 20px 200px;
     display: flex;
     justify-content: space-between;
@@ -28,7 +28,7 @@ a{
     font-family: Roboto,Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: 700;
-    color: var(--secondary);
+    /*color: var(--secondary);*/
 }
 .header nav{
 display: flex;
@@ -48,17 +48,17 @@ column-gap: 60px;
     column-gap: 40px;
 }
 .list_nav{
-    color: var(--secondary);
+    /*color: var(--secondary);*/
     font-size: 20px;
     font-weight: 600;
 }
 
 .register{
     padding: 10px 12px;
-    background-color: var(--secondary);
+    background-color: var(--primary);
 }
 .register a{
-    color: var(--primary);
+    color: var(--secondary);
     font-weight: 600;
     
 }
